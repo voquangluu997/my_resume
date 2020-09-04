@@ -145,6 +145,10 @@ h3.heading {
     color: #333;
 }
 
+.personal-info a:hover {
+    color: #1bbea3;
+}
+
 
 /*---------------about --------------*/
 
