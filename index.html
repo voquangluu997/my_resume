@@ -15,103 +15,119 @@
 </head>
 
 <body>
+    <div class="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-dark .fixed-top">
+            <a class="navbar-brand" href="#"><img src="nameImg3.png"></a>
+            <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link .active" href="#home">HOME </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">ABOUT ME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resume">RESUME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skill">SKILLS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#header">CONTACT</a>
+                    </li>
 
-    <!-------------- My info------------------------- -->
-    <section id='user-info'>
-        <div class="nav-bar">
-            <nav class="navbar navbar-expand-lg navbar-dark  ">
-                <a class="navbar-brand" href="#"><img src="/nameImg3.png"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			    <span class="navbar-toggler-icon"></span>
-			  </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item ">
-                            <a class="nav-link" href="#home">HOME </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">ABOUT ME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#resume">RESUME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#skill">SKILL</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">CONTACT</a>
-                        </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
-                    </ul>
+
+    <!-- header section -->
+    <section id="header">
+        <div class="container-fluid ">
+            <div class="row">
+
+                <div class="col-md-6 ">
+                    <div class="user-box text-center">
+                        <img src="myImg.png">
+                        <h1 class="text-nowrap">VÕ QUANG LƯU</h1>
+                        <p>
+                            <b>FRESHER NODEJS</b>
+                        </p>
+                        <a href=""></a>
+                        <button class="btn btn-primary" type="button">
+							<i class="fa fa-download"></i> Resume
+						</button>
+                    </div>
                 </div>
-            </nav>
-        </div>
 
+                <div class="col-md-6">
+                    <div class="personal-info ">
+                        <p> <i class="fas fa-calendar-alt"></i><span> Nov 18th, 1997</span></p>
 
-
-        <!-- header section -->
-        <section id="header">
-            <div class="container text-center">
-                <div class="user-box">
-                    <img src="myImg.png">
-                    <h1 class="text-nowrap">VÕ QUANG LƯU</h1>
-                    <p>Back-end Developer</p>
-                    <button class="btn btn-primary" type="button">
-					<i class="fa fa-download"></i>Resume
-				</button>
-
-                    <div class="scroll-btn">
-                        <div class="scroll-bar">
-                            <a href="#"><span>|</span></a>
-                        </div>
+                        <p><i class="fas fa-user"></i><span> Male</span></p>
+                        <p><i class="fas fa-phone"></i><span> 033 5963 824</span></p>
+                        <p><a href="mailto:voquangluu997@gmail.com"><i class="fas fa-envelope-square"></i><span> voquangluu997@gmail.com</span></a></p>
+                        <p><i class="fas fa-map-marker-alt"></i><span> 62 Ngo Sy Lien, Hoa Khanh,Lien Chieu district, Da Nang city</span></p>
+                        <p><a href="https://github.com/voquangluu997"><i class="fab fa-github"></i><span> https://github.com/voquangluu997</span></a></p>
                     </div>
 
                 </div>
             </div>
 
+            <div class="scroll-btn">
+                <div class="scroll-bar">
+                    <a href="#"><span>|</span></a>
+                </div>
+            </div>
+    </section>
 
-        </section>
+    <!-------------- My info------------------------- -->
+    <section id='user-info'>
+
 
 
         <!-- --------------About --------------- -->
-        <div class="about container" id="about">
+        <div class="about container jumbotron" id="about">
             <div class="row">
                 <div class="col-md-6 text-center">
                     <img src="me.png" class="profile-img">
+                    <h3 class="heading mt-4">education</h3>
+                    <div class="heading-underline "></div>
+                    <ul class="timeline pl-5 pr-5 ">
+                        <li class="text-left">
+                            <h4><span>AUG 2017-FEB 2022</span></h4>
+                            <b> DA NANG UNIVERSITY OF SCIENCE AND TECHNOLOGY</b><br>
+                            <p><b>Major:</b><span>  Software Engineering</span></p>
+
+                        </li>
+                    </ul>
                 </div>
+
                 <div class="col-md-6">
-                    <h3>WHO AM I ?</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        D
-                    </p>
-                    <div class="skills-bar">
-                        <h3>My Education</h3>
-                        <ul class="timeline">
-                            <li>
-                                <h4><span>2017-2022	  </span></h4>
-                                <p>at DaNang University of Scient and Technology<br>
-                                    <b>Company</b> xyz company Ltd ..<br>
-                                    <b>Duration</b> 1yr [2017 to 2018]<br>
-                                    <b>Location</b> Danang City</p>
-                            </li>
+                    <h3 class="heading">WHO AM I?</h3>
+                    <div class="heading-underline"></div>
 
-                        </ul>
+                    I would like to take a moment to introduce myself. My name is Vo Quang Luu, i am over 22 year olds and my hometown is in Binh Dinh.
+                    <br> I have four years at Da Nang University of Science and technology, my major is software engineering. I started learning Web Programming since 2017. During studying time, I have participated in the real projects and have knowledge
+                    about data structure and algorithm,OOP, which help me accumulated more work experiences.<br> Now, I some skills includes: Experience in Nodejs, express, HTML5, CSS3, Bootstrap, Javascript, Reactjs, JQuery, Ajax, mongoDB, knowledge
+                    about restful API, git version control, scss..
+                    <h3 class="heading mt-5">OBJECTIVE</h3>
+                    <div class="heading-underline"></div>
+                    Focus on learning and accumulating experiences in a modern, healthy competition environment with a lot of opportunities to learn.<br> Strive to improve skills and become an excellent employee with the motto "Having passion in work,
+                    you will surely succeed".
+                    <BR> Contribute to the long-term development of the company
 
-                        <!-- <div>
-                            <p>Restful API</p>
-                            <div class="progress">
-                                <div class="progress-bar" style="width:80%">80%</div>
-                            </div>
 
-                        </div> -->
-
-                    </div>
                 </div>
             </div>
         </div>
 
         <!-- --------------social-------------------->
-        <div class="social-icons">
+        <div class="social-icons ">
             <ul>
                 <a href="https://www.facebook.com/quangluu997">
                     <li><i class="fa fa-facebook"></i></li>
@@ -125,87 +141,175 @@
             </ul>
         </div>
 
-        <!-- -----------resume---------------- -->
-
-        <div class="resume" id="resume">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h3 class="text-center">My Experiences</h3>
-                        <ul class="timeline">
-                            <li>
-                                <h4><span>2018-Front End Developer</span></h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm<br>
-                                    <b>Company</b> xyz company Ltd ..<br>
-                                    <b>Duration</b> 1yr [2017 to 2018]<br>
-                                    <b>Location</b> Danang City</p>
-                            </li>
-
-
-                        </ul>
-                    </div>
-
-                    <div class="col-md-6">
-                        <h3 class="text-center">My Education</h3>
-                        <ul class="timeline">
-
-
-                            <li>
-                                <h4><span>2015-Front End Developer</span></h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm<br>
-                                    <b>Company</b> xyz company Ltd ..<br>
-                                    <b>Duration</b> 1yr [2017 to 2018]<br>
-                                    <b>Location</b> Danang City</p>
-                            </li>
-
-                        </ul>
-                    </div>
-
-
-                </div>
-            </div>
-        </div>
 
         <!-- -------------------------skill---------------------- -->
         <div class="skill" id="skill">
             <div class="container ">
-                <h1 class="text-center">Technical skill</h1>
+                <h3 class="text-center heading">Technical skills</h3>
+                <div class="heading-underline"></div>
+
                 <div class="row">
                     <div class="col-md-4">
                         <div class="skill-box">
 
-                            <i class="fa fa-rocket"></i><span>HTML5</span>
+                            <i class="fab fa-html5"></i><span>HTML5/CSS3/BOOTSTRAP</span>
                             <div class="progress">
-                                <div class="progress-bar" style="width:80%">80%</div>
+                                <div class="progress-bar" style="width:70%">70%</div>
                             </div>
                         </div>
                     </div>
+                    <!--  -->
+
+                    <div class="col-md-4">
+                        <div class="skill-box">
+
+                            <i class="fab fa-js-square"></i><span>JAVASCRIPT</span>
+                            <div class="progress">
+                                <div class="progress-bar" style="width:65%">65%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="col-md-4">
+                        <div class="skill-box">
+                            <i class="fab fa-node-js"></i></i><span>EXPRESS/NODEJS</span>
+                            <div class="progress">
+                                <div class="progress-bar" style="width:60%">60%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+
+                    <div class="col-md-4">
+                        <div class="skill-box">
+
+                            <i class="fab fa-mdb"></i><span>MONGODB/MYSQL</span>
+                            <div class="progress">
+                                <div class="progress-bar" style="width:60%">60%</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="skill-box">
+
+                            <i class="fab fa-react"></i><span>REACTJS</span>
+                            <div class="progress">
+                                <div class="progress-bar" style="width:50%">50%</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="skill-box">
+
+                            <i class="fab fa-github"></i><span>GITHUB</span>
+                            <div class="progress">
+                                <div class="progress-bar" style="width:700%">70%</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="skill-box">
+
+                            <i class="fa fa-book-reader"></i><span>ENGLISH</span>
+                            <div class="progress">
+                                <div class="progress-bar" style="width:50%">50%</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="skill-box">
+
+                            <i class="fa fa-bug"></i><span>SOFT-SKILL</span>
+                            <div class="progress">
+                                <div class="progress-bar" style="width:70%">70%</div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
 
+        <!-- -----------resume---------------- -->
+
+        <div class="resume jumbotron" id="resume">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="heading">experience</h3>
+                        <div class="heading-underline"></div>
+                    </div>
+                    <div class="col-md-12">
+
+                        <ul class="timeline">
+                            <li>
+                                <h4><span>AUG 2020-</span></h4>
+                                <div class="pl-4">
+                                    <b> POWER HELPER WEBSITE </b>
+                                    <h5>Study Project</h5>
+                                    <p><i class="fas fa-hand-point-right"></i> Team size: 5</p>
+                                    <p><i class="fas fa-hand-point-right"></i> Description: The system provides full-time, part-time maids anytime, anywhere,which create jobs for workers and at the same time solve the problem of people who do not have time
+                                        to do housework. </p>
+                                    <p><i class="fas fa-hand-point-right"></i> Technology: NodeJS (Express, Socket.io), MongoDB, vuejs,facebookAPI.
+                                        <p><i class="fas fa-hand-point-right"></i> Main responsibilities:<br><i class="fas fa-check"></i> Design database. <br><i class="fas fa-check"></i> Build Web Application Back-end (Nodejs express ). <br>
+                                            <i class="fas fa-check"></i> Build Web API (NodeJs). </p>
+                                    </p>
+                                    <p><i class="fas fa-hand-point-right"></i> Direct link: comming soon</p>
+                                    <p><i class="fas fa-hand-point-right"></i> Github: Private</p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <h4><span>JULY 2019-NOV 2019</span></h4>
+                                <div class="pl-4">
+                                    <b> SV7 WEBSITE </b>
+                                    <h5>Personal Project</h5>
+                                    <p><i class="fas fa-hand-point-right"></i> Team size: 1</p>
+                                    <p><i class="fas fa-hand-point-right"></i> Description: updating
+                                        <!-- a website when user (Danang university of science and technology student) can get documentation or contribute documentation that they have and others user can use -->
+
+                                        <p><i class="fas fa-hand-point-right"></i> Technology: NodeJS (Express, Socket.io), MongoDB, boostrap4,javascript.
+
+                                            <p><i class="fas fa-hand-point-right"></i> Direct link: duters.xyz </p>
+                                            <p><i class="fas fa-hand-point-right"></i> Github: github.com/voquangluu997/sv7web </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
 
         <!-- ----------------Contact--------------------- -->
 
         <div class="contact" id="contact">
             <div class="container text-center">
-                <h1>Contact me</h1>
-                <p><b>60 Ngo Sy Lien,Hoa Khanh Bac, Lien Chieu disctrict, Da Nang city</b> </p>
+                <h3 class="heading">Contact me</h3>
+                <div class="heading-underline"></div>
+
+                <p><b>60 Ngo Sy Lien,Hoa Khanh Bac, Lien Chieu district, Da Nang city</b> </p>
                 <div class="row">
 
-                    <div class="col-md-4">
+                    <div class="col-md-4 custom-contact">
                         <i class="fa fa-phone"></i>
                         <p>033 5963 824</p>
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-md-4 custom-contact">
                         <i class="fa fa-envelope"></i>
-                        <p>voquangluu997@gmail.com</p>
+                        <p> <a href="mailto:voquangluu997@gmail.com" class="text-white">voquangluu997@gmail.com</a>
+                        </p>
                     </div>
 
                     <div class="col-md-4">
                         <i class="fa fa-internet-explorer"></i>
-                        <p>www.abc.xyz</p>
+                        <p> <a href="https://voquangluu997.github.io/my_resume/" class="text-white">voquangluu997.github.io/my_resume</a>
+                        </p>
                     </div>
 
                 </div>
@@ -217,15 +321,12 @@
 			<i class="fa fa-rocket"></i>Hire me
 		</button>
             </div>
-
             <div class="footer text-center">
-                <marquee>Having passion in work, you will surely succeed <i class=" fa fa-heart-o"></i> </marquee>
+                <p>Having passion in work, you will surely succeed <i class=" fa fa-heart-o"></i> </p>
             </div>
 
         </div>
     </section>
-
-
 </body>
 
 </html>

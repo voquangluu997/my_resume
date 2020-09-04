@@ -7,15 +7,34 @@ body {
 
 /*--------------Header css------------------------*/
 
+h3.heading {
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading-underline {
+    width: 3rem;
+    height: .2rem;
+    background-color: #1ebba3;
+    margin: 0 auto 2rem;
+}
+
 .nav-bar {
     top: 0;
-    position: sticky;
+    position: fixed;
     z-index: 2;
+    opacity: 0.8;
+    width: 100%;
 }
 
 .navbar {
     background-color: #000;
-    /*opacity:0.6;*/
+    /* opacity: 0.9; */
 }
 
 .navbar-brand {
@@ -31,21 +50,30 @@ body {
     color: #eee !important;
 }
 
+.nav-link:hover {
+    color: #1ebba3 !important;
+}
+
+.active {
+    color: #1ebba3;
+}
+
 #header {
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(bg.jpg);
     background-position: center;
-    /*background-size: cover;*/
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    display: flex;
+    align-items: center;
 }
 
 .user-box {
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
 }
 
 .user-box img {
@@ -94,6 +122,27 @@ body {
     100% {
         transform: translateY(0.65rem);
     }
+}
+
+
+/* --------------personal info-----------*/
+
+.personal-info {
+    color: white;
+    font-size: 16px;
+    margin-left: 50px;
+}
+
+.personal-info a {
+    color: white;
+    font-size: 16px;
+}
+
+.personal-info i {
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+    color: #333;
 }
 
 
@@ -190,7 +239,7 @@ body {
 /*-------------skill ----------------------------*/
 
 .skill {
-    padding-top: 50px;
+    padding-top: 160px;
     padding-bottom: 50px;
 }
 
@@ -206,7 +255,7 @@ body {
     border-bottom-left-radius: 50px;
 }
 
-.skill-box .fa {
+.skill-box i {
     margin: 0 10px;
     font-size: 20px;
 }
@@ -305,7 +354,7 @@ body {
 .social-icons {
     top: 50%;
     transform: translateY(-50%);
-    position: sticky;
+    position: fixed;
     z-index: 1;
     width: 80px;
 }
@@ -329,4 +378,21 @@ body {
     padding-left: 30px;
     width: 80px;
     transition: 1s;
+}
+
+@media (max-width: 767px) {
+    .personal-info {
+        margin-top: 2rem;
+        display: none;
+    }
+    #header {
+        margin-top: -5vh;
+    }
+    #contact p,
+    #contact i {
+        font-size: .8rem;
+    }
+    #contact p {
+        margin-left: 5px;
+    }
 }
